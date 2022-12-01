@@ -3,7 +3,7 @@ google-api-python-client
 google-auth-httplib2 
 google-auth-oauthlib
 nltk==3.7
-pandas==1.4.3
+pandas==1.5.2
 scikit-learn==1.1
 matplotlib==3.6.2
 swifter==1.3.4
