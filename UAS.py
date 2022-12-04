@@ -116,7 +116,7 @@ Setelah itu lakukan proses crawling, namun sebelum melakukan crawling terlebih d
 3. Aktifkan Layanan API pada halaman project, dan cari **Youtube Data API v3**.
 4. Dari halaman dashboard, buat kredential agar API tersebut dapat digunakan. Klik tombol **Buat Kredensial** (**Create Credential**). Lengkapi isian formnya.
 5. Anda dapat mengakses / melihat API KEY pada tab **Credentials**.
-Setelah melakukan langkah-langkah tersebut kita akan memiliki data api key youtube. Setelah didapat kita copy agar dapat digunakan untuk mengcrawling komentar dari video youtube. Sebelumnya kita inputkan Video ID dari url youtube yang akan di crawling (contoh url video = https://youtu.be/nhBpK69g8pM, maka Video ID = nhBpK69g8pM). Disini saya mengambil contoh dari Video ID tersebut, jika teman teman ingin mengambil dari video lain maka inputkan Video ID nya pada inputan berikut."""
+Setelah melakukan langkah-langkah tersebut kita akan memiliki data api key youtube. Setelah didapat kita copy agar dapat digunakan untuk mengcrawling komentar dari video youtube. Sebelumnya kita inputkan Video ID dari url youtube yang akan di crawling (contoh url video = https://youtu.be/tCrGtfDOQhA, maka Video ID = tCrGtfDOQhA). Disini saya mengambil contoh dari Video ID tersebut, jika teman teman ingin mengambil dari video lain maka inputkan Video ID nya pada inputan berikut."""
 def video_comments(video_id):
 	# empty list for storing reply
 	replies = []
@@ -177,8 +177,8 @@ def video_comments(video_id):
 api_key = 'AIzaSyBaM_0Q-FXvN2nfsWVqOLeO0ztdT2ovP3Q'
 
 # Enter video id
-# contoh url video = https://youtu.be/nhBpK69g8pM
-video_id = st.text_input("Masukkan Video ID","nhBpK69g8pM") #isikan dengan kode / ID video
+# contoh url video = https://youtu.be/tCrGtfDOQhA
+video_id = st.text_input("Masukkan Video ID","tCrGtfDOQhA") #isikan dengan kode / ID video
 """Maka akan diperoleh hasil crawling komentar youtube seperti berikut."""
 
 # Call function
