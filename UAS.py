@@ -1,9 +1,9 @@
 import streamlit as st
 st.set_page_config(
    page_title="Klasifikasi Komentar Video Youtube",
-   page_icon="🧊",
-   layout="wide",
-   initial_sidebar_state="expanded",
+   page_icon="🦈",
+   layout="centered",
+   initial_sidebar_state="auto",
 )
 import pandas as pd
 from googleapiclient.discovery import build
