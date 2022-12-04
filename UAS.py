@@ -1,7 +1,7 @@
 import streamlit as st
 st.set_page_config(
    page_title="Klasifikasi Komentar Video Youtube",
-   page_icon="🦈",
+   page_icon=":mortar_board:",
    layout="centered",
    initial_sidebar_state="auto",
 )
